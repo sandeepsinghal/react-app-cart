@@ -2,11 +2,11 @@ import React, { Component } from "react";
 
 class Counter extends Component {
   state = {
-    count: 1,
+    count: 0,
   };
 
   handleIncrement = () => {
-    console.log("increment clicked", this);
+    this.setState({ count: this.state.count + 1 });
   };
 
   render() {
@@ -31,7 +31,7 @@ class Counter extends Component {
 
   formatCount() {
     const { count } = this.state;
-    return count == 0 ? <h1>Zero</h1> : <h1>Non Zero</h1>;
+    return count == 0 ? <h1>Zero</h1> : <h1>{this.state.count}</h1>;
   }
 }
 
