@@ -15,3 +15,7 @@ https://babeljs.io/repl
 # Plugins of studio code
 
 prettier
+
+# TO READ Concepts
+
+- Arrow Functions (used in example to pass state to functions)
