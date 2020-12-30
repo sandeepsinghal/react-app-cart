@@ -19,3 +19,20 @@ prettier
 # TO READ Concepts
 
 - Arrow Functions (used in example to pass state to functions)
+
+# Lifecycle Hooks
+
+MOUNT
+
+- constructor
+- render
+- componentDidMount
+
+UPDATE
+
+- render
+- componentDidUpdate
+
+UNMOUNT
+
+- componentWillUnmount
